@@ -139,12 +139,10 @@ section.four .test-card > .right img{
 section.four .card .four img{
     width: 100%;
 }
-.high1{
-    max-height: 400px;
-}
-@media(min-width:768px){
+
+@media(max-width:767px){
     .high1{
-        max-height: 530px;
+        max-height: 500px;
     }
 }
 
