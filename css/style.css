@@ -10,6 +10,10 @@ a{
     text-decoration: none;
     color: white;
 }
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 /* header */
 header{
@@ -68,8 +72,10 @@ section.two h1{
     color: #333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+section.two .content div{
+    height: 300px;
+}
 section.two .content div.text{
-    min-height:350px;
     padding: 23px;
 }
 section.two .content div p{
